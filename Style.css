@@ -91,12 +91,13 @@
             flex-direction: column;
             padding: 10px 10px;
             text-align: center;
+            padding-top: 30px;
         }
         .navbar ul{
             text-align: center;
             justify-content: center;
             display: flex;
-            gap: 18px;
+            gap: 28px;
         }
         .navbar h3 {
             padding-left: 1px;
@@ -115,6 +116,8 @@
         }
         .nav-image img{
             padding: 10px 20px;
+            height: 280px;
         }
         /* navbar-styles-end */
     }
+    
