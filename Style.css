@@ -1,10 +1,24 @@
+/* Work Sans font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 *{
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
      /* header-section-start */
-    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 10%;
+        border: 2px solid red;
+    }
+    .navbar ul{
+        display: flex;
+    }
+    .navbar ul li{
+        list-style: none;
+    }
 
      /* header-section-end */
     
