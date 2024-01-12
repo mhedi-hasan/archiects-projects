@@ -55,12 +55,19 @@
         padding: 10px 25px;
         border-radius: 8px;
         border: none;
+        margin-top: 15px;
         background: #FF900E;
         transition: calc(1s);
     }
     .nav-title button:hover{
         background: #39403dce;
         color: #fe8700;
+    }
+    .nav-image img{
+        background: rgba(255, 144, 14, 0.10);
+        width: 100%;
+        padding: 20px 110px;
+        padding-bottom: 20px;
     }
 
      /* header-section-end */
