@@ -170,6 +170,31 @@
         background: #FFF;
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.09);
     }
+    /* facts-card-container */
+    .some-fats > h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 110px;
+    }
+    .some-fats > p{
+        width: 542px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        margin-left: 110px;
+    }
+    .facts-card-container{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 40px;
+        text-align: center;
+        
+    }
+    .facts-card-container .card{
+        border-radius: 8px;
+        border: 1px solid #FF900E;
+        padding: 12px 20px;
+    }
      /* main-section-end */
     
      /* footer-section-start */
