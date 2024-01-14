@@ -225,6 +225,7 @@
         margin: 40px 110px;
         padding: 26px 0;
         margin-bottom: 60px;
+        border-radius: 8px;
     }
      /* footer-section-end */
     
@@ -265,8 +266,46 @@
         }
         /* navbar-styles-end */
         /* main-section-start */
+        .main-section-gallery{
+            flex-direction: column;
+        }
+        .main-section-title{
+            width: auto;
+            margin-left: 0px;
+            margin-top: 80px;
+            text-align: center;
+        }
+        .main-section-title h2 {
+            font-size: 20px;
+        }
+        .main-section-img {
+            width: 100%;
+            margin-left: 0;
+        }
+        .features-section {
+            flex-direction: column;
+            margin: 25px 20px;
+        }
+        .features-message h2,.message {
+            text-align: center;
+            padding: 10px 20px;
+        }
+        .features-message h2{
+            font-size: 30px;
+        }
+        .features-message {
+            margin-right: 0px;
+        }
+        .div-1,.div-2,.div-3,.div-4{
+            width: auto;
+            padding: 14px 10px;
+        }
+        .div-4{
+            margin-bottom: 30px;
+        }
         .some-fats{
             text-align: center;
+            margin-top: 50px;
         }
         .some-fats >h2{
             margin: 0;
