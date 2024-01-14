@@ -243,7 +243,11 @@
             text-align: center;
             justify-content: center;
             display: flex;
-            gap: 20px;
+            /* gap: 20px; */
+            
+        }
+        .navbar ul li{
+            padding-right: 15px;
         }
         .navbar h3 {
             padding-left: 1px;
@@ -277,6 +281,9 @@
         }
         .main-section-title h2 {
             font-size: 20px;
+        }
+        .main-section-title p{
+            padding: 5px 20px;
         }
         .main-section-img {
             width: 100%;
@@ -312,7 +319,10 @@
         }
         .some-fats > p {
             margin: 0;
-            padding: 0 30px;
+            text-align: center;
+            width: 350px;
+            margin-left: 20px;
+            /* padding: 0 30px; */
         }
         .facts-card-container{
             flex-direction: column;
@@ -323,12 +333,20 @@
         .sponspor-section p{
             padding: 10px 24px;
         }
+        .sponspor-section img {
+            width: 85%;
+            height: 100%;
+        }
+        .sponspor-section ul{
+            margin: 0px 6px;
+            margin-top: 30px;
+        }
         /* main-section-end */
 
         /* footer-section-start */
         footer{
             margin: 40px 12px;
-            padding: 26px 70px;
+            padding: 26px 28px;
         }
         /* footer-section-end */
     }
